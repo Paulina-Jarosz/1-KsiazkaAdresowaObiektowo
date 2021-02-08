@@ -2,4 +2,5 @@ bin/
 obj/
 planUML.uxf
 01-KsAdresObiektowo.cbp
-
+ks-strukt.cpp
+Uzytkownicy.txt
