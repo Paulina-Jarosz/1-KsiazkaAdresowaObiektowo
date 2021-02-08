@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1612806932 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\ksiazkaadresowa.cpp
+
+1612807937 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\uzytkownik.cpp
+	<iostream>
+
