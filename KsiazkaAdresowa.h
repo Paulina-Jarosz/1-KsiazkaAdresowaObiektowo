@@ -14,6 +14,7 @@ UzytkownikMenedzer uzytkownikMenadzer;
 public:
     void rejestracjaUzytkownika();
     void wypiszWszystkichUzytkownikow();
+    KsiazkaAdresowa();
 
 };
 
