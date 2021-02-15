@@ -1,22 +1,22 @@
 # depslib dependency file v1.0
-1613418465 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\ksiazkaadresowa.cpp
+1613422647 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\ksiazkaadresowa.cpp
 	"KsiazkaAdresowa.h"
 
 1612813884 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\uzytkownik.cpp
 	"Uzytkownik.h"
 
-1613419331 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\main.cpp
+1613422647 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\main.cpp
 	<iostream>
 	"KsiazkaAdresowa.h"
 
-1613418465 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\ksiazkaadresowa.h
+1613422647 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\ksiazkaadresowa.h
 	<iostream>
 	"UzytkownikMenedzer.h"
 
 1612821026 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\uzytkownik.h
 	<iostream>
 
-1613418991 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\uzytkownikmenedzer.h
+1613422647 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\uzytkownikmenedzer.h
 	<iostream>
 	<vector>
 	<windows.h>
@@ -32,10 +32,10 @@
 	<iostream>
 	<sstream>
 
-1613418010 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzuzytkownikami.cpp
+1613423542 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzuzytkownikami.cpp
 	"PlikZUzytkownikami.h"
 
-1613418010 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzuzytkownikami.h
+1613423542 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzuzytkownikami.h
 	<iostream>
 	<vector>
 	<fstream>
@@ -43,6 +43,6 @@
 	"Uzytkownik.h"
 	"MetodyPomocnicze.h"
 
-1613419188 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\uzytkownikmenedzer.cpp
+1613423525 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\uzytkownikmenedzer.cpp
 	"UzytkownikMenedzer.h"
 
