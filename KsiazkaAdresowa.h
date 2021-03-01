@@ -4,6 +4,7 @@
 #include <iostream>
 
 #include "UzytkownikMenedzer.h"
+#include "AdresaciMenedzer.h"
 
 using namespace std;
 
@@ -15,6 +16,7 @@ public:
     KsiazkaAdresowa(string nazwaPlikuZUzytkownikami) : uzytkownikMenadzer(nazwaPlikuZUzytkownikami){
         uzytkownikMenadzer.wczytajUzytkownikowZPliku();
     };
+
     void rejestracjaUzytkownika();
     void wypiszWszystkichUzytkownikow();
     void logowanieUzytkownika();
