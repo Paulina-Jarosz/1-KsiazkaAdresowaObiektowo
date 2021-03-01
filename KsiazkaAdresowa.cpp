@@ -19,3 +19,8 @@ void KsiazkaAdresowa :: zmianaHaslaZalogowanegoUzytkownika() {
 
     uzytkownikMenadzer.zmianaHaslaZalogowanegoUzytkownika();
 }
+
+int KsiazkaAdresowa :: dodajAdresata() {
+
+    adresatMenedzer.dodajAdresata();
+}
