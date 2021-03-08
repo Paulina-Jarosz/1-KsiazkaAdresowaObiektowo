@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+#include "MetodyPomocnicze.h"
+
 using namespace std;
 
 class Adresat
@@ -17,6 +19,7 @@ class Adresat
 
 public:
     void ustawId (int noweId);
+    void ustawIdUzytkownika (int noweIdUzytkownika);
     void ustawImie (string noweImie);
     void ustawNazwisko (string noweNazwisko);
     void ustawNumerTelefonu (string nowyNumerTelefonu);

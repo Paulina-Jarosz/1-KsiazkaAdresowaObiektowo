@@ -18,3 +18,4 @@ string MetodyPomocnicze :: pobierzLiczbe(string tekst, int pozycjaZnaku)
     }
     return liczba;
 }
+
