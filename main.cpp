@@ -14,5 +14,6 @@ int main()
     //ksiazkaAdresowa.zmianaHaslaZalogowanegoUzytkownika();
     ksiazkaAdresowa.dodajAdresata();
 
+
     return 0;
 }

@@ -12,7 +12,7 @@
 #include "Uzytkownik.h"
 #include "UzytkownikMenedzer.h"
 #include "MetodyPomocnicze.h"
-//#include "PlikZAdresatami.h"
+#include "PlikZAdresatami.h"
 
 using namespace std;
 
@@ -20,14 +20,13 @@ class AdresatMenedzer {
     vector <Adresat> adresaci;
     int idZalogowanegoUzytkownika;
     int idOstatniegoAdresata;
-    //PlikZAdresatami plikZAdresatami;
+    PlikZAdresatami plikZAdresatami;
 
 
 public:
     //AdresaciMenedzer (string nazwaPlikuZAdresatami) : plikZAdresatami (nazwaPlikuZAdresatami){};
     int dodajAdresata ();
     Adresat podajDaneNowegoAdresata(int idZalogowanegoUzytkownika, int idOstatniegoAdresata);
-    //void dopiszAdresataDoPliku(Adresat adresat);
     string wczytajLinie(); // Metody Pomocnicze??
     string zamienPierwszaLitereNaDuzaAPozostaleNaMale(string tekst); // Metody Pomocnicze??
 

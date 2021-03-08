@@ -5,11 +5,11 @@
 1612813884 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\uzytkownik.cpp
 	"Uzytkownik.h"
 
-1614626657 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\main.cpp
+1615218375 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\main.cpp
 	<iostream>
 	"KsiazkaAdresowa.h"
 
-1614633803 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\ksiazkaadresowa.h
+1615221857 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\ksiazkaadresowa.h
 	<iostream>
 	"UzytkownikMenedzer.h"
 	"AdresatMenedzer.h"
@@ -26,10 +26,10 @@
 	"Uzytkownik.h"
 	"PlikZUzytkownikami.h"
 
-1614631565 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\metodypomocnicze.cpp
+1614634327 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\metodypomocnicze.cpp
 	"MetodyPomocnicze.h"
 
-1614631565 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\metodypomocnicze.h
+1614634327 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\metodypomocnicze.h
 	<iostream>
 	<sstream>
 	<algorithm>
@@ -68,16 +68,15 @@
 	"Uzytkownik.h"
 	"UzytkownikMenedzer.h"
 
-1614623450 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzadresatami.h
+1615222042 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzadresatami.h
 	<iostream>
 	<vector>
 	<fstream>
 	<cstdlib>
-	"MetodyPomocnicze.h"
 	"Adresat.h"
-	"AdresaciMenedzer.h"
+	"MetodyPomocnicze.h"
 
-1614633803 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\adresatmenedzer.h
+1615222214 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\adresatmenedzer.h
 	<iostream>
 	<vector>
 	<windows.h>
@@ -88,7 +87,11 @@
 	"Uzytkownik.h"
 	"UzytkownikMenedzer.h"
 	"MetodyPomocnicze.h"
+	"PlikZAdresatami.h"
 
-1614633803 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\adresatmenedzer.cpp
+1615221857 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\adresatmenedzer.cpp
 	"AdresatMenedzer.h"
+
+1615222169 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzadresatami.cpp
+	"PlikZAdresatami.h"
 
