@@ -1,11 +1,6 @@
 #include "AdresatMenedzer.h"
 
 
-/*void AdresaciMenedzer :: wczytajAdresatowZalogowanegoUzytkownikaZPliku(vector <Adresat> adresaci, int idZalogowanegoUzytkownika){
-
-    adresaci = plikZAdresatami.wczytajAdresatowZalogowanegoUzytkownikaZPliku();
-}*/
-
 int AdresatMenedzer :: dodajAdresata()
 {
     Adresat adresat;
