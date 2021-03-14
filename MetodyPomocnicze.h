@@ -12,7 +12,7 @@ class MetodyPomocnicze {
 public:
     static string konwerjsaIntNaString(int liczba);
     static string pobierzLiczbe(string tekst, int pozycjaZnaku);
-    int konwersjaStringNaInt(string liczba);
+    static int konwersjaStringNaInt(string liczba);
 };
 
 #endif

@@ -96,7 +96,7 @@ int PlikZAdresatami :: wczytajAdresatowZalogowanegoUzytkownikaZPliku(vector <Adr
 int PlikZAdresatami :: pobierzIdUzytkownikaZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami)
 {
     int pozycjaRozpoczeciaIdUzytkownika = daneJednegoAdresataOddzielonePionowymiKreskami.find_first_of('|') + 1;
-    MetodyPomocnicze metodyPomocnicze;
+    //MetodyPomocnicze metodyPomocnicze;
     int idUzytkownika = MetodyPomocnicze :: konwersjaStringNaInt(MetodyPomocnicze :: pobierzLiczbe(daneJednegoAdresataOddzielonePionowymiKreskami, pozycjaRozpoczeciaIdUzytkownika));
 
     return idUzytkownika;
@@ -106,7 +106,7 @@ Adresat PlikZAdresatami :: pobierzDaneAdresata(string daneAdresataOddzielonePion
 {
     Adresat adresat;
     string pojedynczaDanaAdresata = "";
-    MetodyPomocnicze metodyPomocnicze;
+    //MetodyPomocnicze metodyPomocnicze;
     int numerPojedynczejDanejAdresata = 1;
 
     for (int pozycjaZnaku = 0; pozycjaZnaku < daneAdresataOddzielonePionowymiKreskami.length(); pozycjaZnaku++)

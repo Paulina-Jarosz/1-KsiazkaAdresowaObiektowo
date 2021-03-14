@@ -26,12 +26,12 @@
 	"Uzytkownik.h"
 	"PlikZUzytkownikami.h"
 
-1615229428 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\metodypomocnicze.cpp
+1615736470 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\metodypomocnicze.cpp
 	"MetodyPomocnicze.h"
 
 1614626914 D
 
-1615229428 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\metodypomocnicze.h
+1615654917 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\metodypomocnicze.h
 	<iostream>
 	<sstream>
 	<algorithm>
@@ -105,6 +105,6 @@
 1615229428 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\adresatmenedzer.cpp
 	"AdresatMenedzer.h"
 
-1615226334 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzadresatami.cpp
+1615736470 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzadresatami.cpp
 	"PlikZAdresatami.h"
 
