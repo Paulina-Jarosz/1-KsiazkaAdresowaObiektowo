@@ -96,11 +96,6 @@ int PlikZAdresatami :: wczytajAdresatowZalogowanegoUzytkownikaZPliku(vector <Adr
 int PlikZAdresatami :: pobierzIdUzytkownikaZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami)
 {
     int pozycjaRozpoczeciaIdUzytkownika = daneJednegoAdresataOddzielonePionowymiKreskami.find_first_of('|') + 1;
-<<<<<<< HEAD
-    //MetodyPomocnicze metodyPomocnicze;
-=======
-    MetodyPomocnicze metodyPomocnicze;
->>>>>>> 6a4bc256cd0bd31d958c4c04e77e92283f90f5c0
     int idUzytkownika = MetodyPomocnicze :: konwersjaStringNaInt(MetodyPomocnicze :: pobierzLiczbe(daneJednegoAdresataOddzielonePionowymiKreskami, pozycjaRozpoczeciaIdUzytkownika));
 
     return idUzytkownika;
@@ -110,8 +105,7 @@ Adresat PlikZAdresatami :: pobierzDaneAdresata(string daneAdresataOddzielonePion
 {
     Adresat adresat;
     string pojedynczaDanaAdresata = "";
-<<<<<<< HEAD
-    //MetodyPomocnicze metodyPomocnicze;
+
     int numerPojedynczejDanejAdresata = 1;
 
     for (int pozycjaZnaku = 0; pozycjaZnaku < daneAdresataOddzielonePionowymiKreskami.length(); pozycjaZnaku++)
@@ -153,50 +147,6 @@ Adresat PlikZAdresatami :: pobierzDaneAdresata(string daneAdresataOddzielonePion
     return adresat;
 }
 
-=======
-    MetodyPomocnicze metodyPomocnicze;
-    int numerPojedynczejDanejAdresata = 1;
-
-    for (int pozycjaZnaku = 0; pozycjaZnaku < daneAdresataOddzielonePionowymiKreskami.length(); pozycjaZnaku++)
-    {
-        if (daneAdresataOddzielonePionowymiKreskami[pozycjaZnaku] != '|')
-        {
-            pojedynczaDanaAdresata += daneAdresataOddzielonePionowymiKreskami[pozycjaZnaku];
-        }
-        else
-        {
-            switch(numerPojedynczejDanejAdresata)
-            {
-            case 1:
-                adresat.pobierzId() == MetodyPomocnicze :: konwersjaStringNaInt(pojedynczaDanaAdresata);
-                break;
-            case 2:
-                adresat.pobierzIdUzytkownika() == MetodyPomocnicze :: konwersjaStringNaInt(pojedynczaDanaAdresata);
-                break;
-            case 3:
-                adresat.pobierzImie() = pojedynczaDanaAdresata;
-                break;
-            case 4:
-                adresat.pobierzNazwisko() = pojedynczaDanaAdresata;
-                break;
-            case 5:
-                adresat.pobierzNumerTelefonu() = pojedynczaDanaAdresata;
-                break;
-            case 6:
-                adresat.pobierzEmail() = pojedynczaDanaAdresata;
-                break;
-            case 7:
-                adresat.pobierzAdres() = pojedynczaDanaAdresata;
-                break;
-            }
-            pojedynczaDanaAdresata = "";
-            numerPojedynczejDanejAdresata++;
-        }
-    }
-    return adresat;
-}
-
->>>>>>> 6a4bc256cd0bd31d958c4c04e77e92283f90f5c0
 int PlikZAdresatami :: pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami)
 {
     int pozycjaRozpoczeciaIdAdresata = 0;
