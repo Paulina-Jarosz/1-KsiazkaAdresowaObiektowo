@@ -19,7 +19,11 @@ string MetodyPomocnicze :: pobierzLiczbe(string tekst, int pozycjaZnaku)
     return liczba;
 }
 
+<<<<<<< HEAD
 int MetodyPomocnicze :: konwersjaStringNaInt(string liczba)
+=======
+int konwersjaStringNaInt(string liczba)
+>>>>>>> 6a4bc256cd0bd31d958c4c04e77e92283f90f5c0
 {
     int liczbaInt;
     istringstream iss(liczba);
