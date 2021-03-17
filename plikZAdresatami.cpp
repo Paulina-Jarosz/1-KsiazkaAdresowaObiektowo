@@ -58,10 +58,11 @@ bool PlikZAdresatami :: czyPlikJestPusty(fstream &plikTekstowy)
         return false;
 }
 
-int PlikZAdresatami :: wczytajAdresatowZalogowanegoUzytkownikaZPliku(vector <Adresat> &adresaci, int idZalogowanegoUzytkownika)
+vector <Adresat> PlikZAdresatami :: wczytajAdresatowZalogowanegoUzytkownikaZPliku(int& idZalogowanegoUzytkownika)
 {
     Adresat adresat;
     int idOstatniegoAdresata = 0;
+    vector <Adresat> adresaci;
     string daneJednegoAdresataOddzielonePionowymiKreskami = "";
     string daneOstaniegoAdresataWPliku = "";
     fstream plikTekstowy;
@@ -87,10 +88,10 @@ int PlikZAdresatami :: wczytajAdresatowZalogowanegoUzytkownikaZPliku(vector <Adr
     if (daneOstaniegoAdresataWPliku != "")
     {
         idOstatniegoAdresata = pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(daneOstaniegoAdresataWPliku);
-        return idOstatniegoAdresata;
+        //return adresaci;
     }
-    else
-        return 0;
+    //else
+        return adresaci;
 }
 
 int PlikZAdresatami :: pobierzIdUzytkownikaZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami)
@@ -150,7 +151,7 @@ Adresat PlikZAdresatami :: pobierzDaneAdresata(string daneAdresataOddzielonePion
 int PlikZAdresatami :: pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami)
 {
     int pozycjaRozpoczeciaIdAdresata = 0;
-    MetodyPomocnicze metodyPomocnicze;
+
     int idAdresata = MetodyPomocnicze :: konwersjaStringNaInt(MetodyPomocnicze :: pobierzLiczbe(daneJednegoAdresataOddzielonePionowymiKreskami, pozycjaRozpoczeciaIdAdresata));
     return idAdresata;
 }

@@ -1,6 +1,7 @@
 #include <iostream>
 #include "KsiazkaAdresowa.h"
 
+
 using namespace std;
 
 int main()
@@ -9,10 +10,11 @@ int main()
 
     //ksiazkaAdresowa.rejestracjaUzytkownika();
     //ksiazkaAdresowa.rejestracjaUzytkownika();
-    //ksiazkaAdresowa.wypiszWszystkichUzytkownikow();
-    //ksiazkaAdresowa.logowanieUzytkownika();
+    ksiazkaAdresowa.wypiszWszystkichUzytkownikow();
+    ksiazkaAdresowa.logowanieUzytkownika();
     //ksiazkaAdresowa.zmianaHaslaZalogowanegoUzytkownika();
-    ksiazkaAdresowa.dodajAdresata();
+    //ksiazkaAdresowa.dodajAdresata();
+    ksiazkaAdresowa.wyswietlWszystkichAdresatow();
 
 
     return 0;

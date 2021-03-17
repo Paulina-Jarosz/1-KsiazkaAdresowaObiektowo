@@ -24,3 +24,8 @@ int KsiazkaAdresowa :: dodajAdresata() {
 
     adresatMenedzer.dodajAdresata();
 }
+
+void KsiazkaAdresowa :: wyswietlWszystkichAdresatow() {
+
+    adresatMenedzer.wyswietlWszystkichAdresatow();
+}

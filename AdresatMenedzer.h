@@ -22,13 +22,17 @@ class AdresatMenedzer {
     int idOstatniegoAdresata;
     PlikZAdresatami plikZAdresatami;
 
+    void wczytajAdresatowZalogowanegoUzytkownikaZPliku(int& idZalogowanegoUzytkownika);
+    Adresat podajDaneNowegoAdresata(int& idZalogowanegoUzytkownika, int idOstatniegoAdresata);
+    string wczytajLinie(); // Metody Pomocnicze??
+    string zamienPierwszaLitereNaDuzaAPozostaleNaMale(string tekst); // Metody Pomocnicze??
+
 
 public:
     //AdresaciMenedzer (string nazwaPlikuZAdresatami) : plikZAdresatami (nazwaPlikuZAdresatami){};
     int dodajAdresata ();
-    Adresat podajDaneNowegoAdresata(int idZalogowanegoUzytkownika, int idOstatniegoAdresata);
-    string wczytajLinie(); // Metody Pomocnicze??
-    string zamienPierwszaLitereNaDuzaAPozostaleNaMale(string tekst); // Metody Pomocnicze??
+    void wyswietlWszystkichAdresatow();
+    void wyswietlDaneAdresata(Adresat adresat);
 
 };
 

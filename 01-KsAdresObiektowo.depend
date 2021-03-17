@@ -1,15 +1,15 @@
 # depslib dependency file v1.0
-1615223367 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\ksiazkaadresowa.cpp
+1616008914 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\ksiazkaadresowa.cpp
 	"KsiazkaAdresowa.h"
 
 1612813884 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\uzytkownik.cpp
 	"Uzytkownik.h"
 
-1615223367 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\main.cpp
+1616012535 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\main.cpp
 	<iostream>
 	"KsiazkaAdresowa.h"
 
-1615227389 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\ksiazkaadresowa.h
+1616008934 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\ksiazkaadresowa.h
 	<iostream>
 	"UzytkownikMenedzer.h"
 	"AdresatMenedzer.h"
@@ -54,10 +54,10 @@
 	"Adresat.h"
 	"MetodyPomocnicze.h"
 
-1613423821 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzuzytkownikami.cpp
+1616013078 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzuzytkownikami.cpp
 	"PlikZUzytkownikami.h"
 
-1613423821 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzuzytkownikami.h
+1616013078 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzuzytkownikami.h
 	<iostream>
 	<vector>
 	<fstream>
@@ -65,7 +65,7 @@
 	"Uzytkownik.h"
 	"MetodyPomocnicze.h"
 
-1613594813 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\uzytkownikmenedzer.cpp
+1615905149 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\uzytkownikmenedzer.cpp
 	"UzytkownikMenedzer.h"
 
 1615223367 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\adresat.cpp
@@ -88,7 +88,7 @@
 	"Uzytkownik.h"
 	"UzytkownikMenedzer.h"
 
-1615738937 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzadresatami.h
+1616012734 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzadresatami.h
 	<iostream>
 	<vector>
 	<fstream>
@@ -96,7 +96,7 @@
 	"Adresat.h"
 	"MetodyPomocnicze.h"
 
-1615223367 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\adresatmenedzer.h
+1616010201 c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\adresatmenedzer.h
 	<iostream>
 	<vector>
 	<windows.h>
@@ -109,8 +109,9 @@
 	"MetodyPomocnicze.h"
 	"PlikZAdresatami.h"
 
-1615737436 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\adresatmenedzer.cpp
+1616012734 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\adresatmenedzer.cpp
 	"AdresatMenedzer.h"
 
-1615226334 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzadresatami.cpp
+1616012937 source:c:\cplusprojekty\ksiazkaadresowaobiektowo\01-ksadresobiektowo\plikzadresatami.cpp
+	"PlikZAdresatami.h"
 
