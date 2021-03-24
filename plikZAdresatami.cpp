@@ -23,7 +23,6 @@ bool PlikZAdresatami :: dopiszAdresataDoPliku(Adresat adresat) {
 string PlikZAdresatami :: zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(Adresat adresat)
 {
     string liniaZDanymiAdresata = "";
-    MetodyPomocnicze metodyPomocnicze;
 
     liniaZDanymiAdresata += MetodyPomocnicze :: konwerjsaIntNaString(adresat.pobierzId()) + '|';
     liniaZDanymiAdresata += MetodyPomocnicze :: konwerjsaIntNaString(adresat.pobierzIdUzytkownika()) + '|';

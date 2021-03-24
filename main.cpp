@@ -4,11 +4,11 @@
 
 using namespace std;
 
-int main()
+int _main()
 {
     KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci.txt");
     char wybor = 0;
-    int idZalogowanegoUzytkownika = 0;
+    //int idZalogowanegoUzytkownika = 0;
     vector <Uzytkownik> uzytkownicy;
     vector <Adresat> adresaci;
     int idOstatniegoAdresata;
@@ -79,7 +79,7 @@ int main()
 }
 
 
-/*//TEST
+//TEST
 #include "Adresat.h"
 #include "PlikZAdresatami.h"
 #include "AdresatMenedzer.h"
@@ -87,12 +87,12 @@ int main()
 int main()
 {
     PlikZAdresatami plikZAdresatami ("Adresaci-test.txt");
-    Adresat adresat (8,4,"Anna","Kowal","123444","email","adres");
+    Adresat adresat (3,5,"Anna","Kowal","123444","email","adres");
 
     plikZAdresatami.dopiszAdresataDoPliku(adresat);
     //adresatMenedzer.wyswietlWszystkichAdresatow();
 
     cout <<plikZAdresatami.pobierzIdOstatniegoAdresata();
 
-}*/
+}
 
