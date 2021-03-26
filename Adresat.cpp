@@ -35,7 +35,7 @@ int Adresat :: pobierzId() {
 }
 
 int Adresat :: pobierzIdUzytkownika() {
-    return id;
+    return idUzytkownika;
 }
 
 string Adresat :: pobierzImie() {

@@ -64,6 +64,7 @@ void AdresatMenedzer :: wyswietlWszystkichAdresatow()
         for (vector <Adresat> :: iterator itr = adresaci.begin(); itr != adresaci.end(); itr++)
         {
             wyswietlDaneAdresata(*itr);
+
         }
         cout << endl;
     }

@@ -102,25 +102,25 @@ Adresat PlikZAdresatami :: pobierzDaneAdresata(string daneAdresataOddzielonePion
             switch(numerPojedynczejDanejAdresata)
             {
             case 1:
-                adresat.pobierzId() == MetodyPomocnicze :: konwersjaStringNaInt(pojedynczaDanaAdresata);
+                adresat.ustawId(MetodyPomocnicze :: konwersjaStringNaInt(pojedynczaDanaAdresata));
                 break;
             case 2:
-                adresat.pobierzIdUzytkownika() == MetodyPomocnicze :: konwersjaStringNaInt(pojedynczaDanaAdresata);
+                adresat.ustawIdUzytkownika(MetodyPomocnicze :: konwersjaStringNaInt(pojedynczaDanaAdresata));
                 break;
             case 3:
-                adresat.pobierzImie() = pojedynczaDanaAdresata;
+                adresat.ustawImie(pojedynczaDanaAdresata);
                 break;
             case 4:
-                adresat.pobierzNazwisko() = pojedynczaDanaAdresata;
+                adresat.ustawNazwisko(pojedynczaDanaAdresata);
                 break;
             case 5:
-                adresat.pobierzNumerTelefonu() = pojedynczaDanaAdresata;
+                adresat.ustawNumerTelefonu(pojedynczaDanaAdresata);
                 break;
             case 6:
-                adresat.pobierzEmail() = pojedynczaDanaAdresata;
+                adresat.ustawEmail(pojedynczaDanaAdresata);
                 break;
             case 7:
-                adresat.pobierzAdres() = pojedynczaDanaAdresata;
+                adresat.ustawAdres(pojedynczaDanaAdresata);
                 break;
             }
             pojedynczaDanaAdresata = "";
