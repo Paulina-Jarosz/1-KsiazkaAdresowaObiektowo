@@ -76,3 +76,7 @@ char KsiazkaAdresowa :: wybierzOpcjeZMenuUzytkownika() {
 void KsiazkaAdresowa :: wyszukajAdresatowPoImieniu(){
     adresatMenedzer -> wyszukajAdresatowPoImieniu();
 }
+
+void KsiazkaAdresowa :: wyszukajAdresatowPoNazwisku(){
+    adresatMenedzer -> wyszukajAdresatowPoNazwisku();
+}
