@@ -72,3 +72,7 @@ bool KsiazkaAdresowa :: czyUzytkownikJestZalogowany(){
 char KsiazkaAdresowa :: wybierzOpcjeZMenuUzytkownika() {
     uzytkownikMenadzer.wybierzOpcjeZMenuUzytkownika();
 }
+
+void KsiazkaAdresowa :: wyszukajAdresatowPoImieniu(){
+    adresatMenedzer -> wyszukajAdresatowPoImieniu();
+}
