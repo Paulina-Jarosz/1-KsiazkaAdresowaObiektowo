@@ -1,16 +1,13 @@
 #include <iostream>
 #include "KsiazkaAdresowa.h"
 
-
 using namespace std;
 
 int main()
 {
     KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci.txt");
     char wybor = 0;
-    vector <Uzytkownik> uzytkownicy;
     vector <Adresat> adresaci;
-    int idOstatniegoAdresata;
 
      while (true)
     {
@@ -45,7 +42,8 @@ int main()
             switch (wybor)
             {
             case '1':
-                idOstatniegoAdresata = ksiazkaAdresowa.dodajAdresata();
+                //idOstatniegoAdresata = ksiazkaAdresowa.dodajAdresata();
+                ksiazkaAdresowa.dodajAdresata();
                 break;
             case '2':
                 ksiazkaAdresowa.wyszukajAdresatowPoImieniu();
@@ -58,10 +56,9 @@ int main()
                 break;
             case '5':
                 ksiazkaAdresowa.usunAdresata();
-                //idOstatniegoAdresata = podajIdOstatniegoAdresataPoUsunieciuWybranegoAdresata(idUsunietegoAdresata, idOstatniegoAdresata);
                 break;
             case '6':
-                //edytujAdresata(adresaci);
+                ksiazkaAdresowa.edytujAdresata();
                 break;
             case '7':
                 ksiazkaAdresowa.zmianaHaslaZalogowanegoUzytkownika();
