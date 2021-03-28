@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci.txt");
+    KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci_testing.txt");
     char wybor = 0;
     vector <Adresat> adresaci;
 
@@ -42,7 +42,6 @@ int main()
             switch (wybor)
             {
             case '1':
-                //idOstatniegoAdresata = ksiazkaAdresowa.dodajAdresata();
                 ksiazkaAdresowa.dodajAdresata();
                 break;
             case '2':
@@ -81,7 +80,10 @@ int main()
 
 int main()
 {
-    AdresatMenedzer adresatMenedzer ("Adresaci.txt",1);
+    PlikZAdresatami plikZAdresatami("test.txt");
+    Adresat adresat(33,4,"Marta", "Markowska", "22222", "hhhh", "dddddd");
+    plikZAdresatami.dopiszAdresataDoPliku(adresat);
+    /*AdresatMenedzer adresatMenedzer ("Adresaci.txt",1);
     adresatMenedzer.wyswietlWszystkichAdresatow();
     adresatMenedzer.dodajAdresata();
     adresatMenedzer.wyswietlWszystkichAdresatow();
