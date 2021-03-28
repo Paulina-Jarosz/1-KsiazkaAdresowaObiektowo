@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci_testing.txt");
+    KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci.txt");
     char wybor = 0;
     vector <Adresat> adresaci;
 
@@ -76,13 +76,14 @@ int main()
 /*//TEST
 #include "Adresat.h"
 #include "PlikZAdresatami.h"
+#include "PlikZUzytkownikami.h"
 #include "AdresatMenedzer.h"
 
 int main()
 {
-    PlikZAdresatami plikZAdresatami("test.txt");
-    Adresat adresat(33,4,"Marta", "Markowska", "22222", "hhhh", "dddddd");
-    plikZAdresatami.dopiszAdresataDoPliku(adresat);
+    PlikZUzytkownikami plikZUytkownikami("Uzytkownicy_testing.txt");
+    Uzytkownik uzytkownik(11, "Jan", "aaa");
+    plikZUytkownikami.dopiszUzytkownikaDoPliku(uzytkownik);
     /*AdresatMenedzer adresatMenedzer ("Adresaci.txt",1);
     adresatMenedzer.wyswietlWszystkichAdresatow();
     adresatMenedzer.dodajAdresata();
