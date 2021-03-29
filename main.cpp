@@ -7,6 +7,8 @@ int main()
 {
     KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci.txt");
     char wybor = 0;
+    int idOstatniegoAdresata = 0;
+    int idUsunietegoAdresata = 0;
     vector <Adresat> adresaci;
 
      while (true)
@@ -42,7 +44,6 @@ int main()
             switch (wybor)
             {
             case '1':
-                //idOstatniegoAdresata = ksiazkaAdresowa.dodajAdresata();
                 ksiazkaAdresowa.dodajAdresata();
                 break;
             case '2':
@@ -55,7 +56,8 @@ int main()
                 ksiazkaAdresowa.wyswietlWszystkichAdresatow();
                 break;
             case '5':
-                ksiazkaAdresowa.usunAdresata();
+                idUsunietegoAdresata = ksiazkaAdresowa.usunAdresata();
+                idOstatniegoAdresata = ksiazkaAdresowa.podajIdOstatniegoAdresataPoUsunieciuWybranegoAdresata(idUsunietegoAdresata);
                 break;
             case '6':
                 ksiazkaAdresowa.edytujAdresata();
@@ -77,11 +79,15 @@ int main()
 /*//TEST
 #include "Adresat.h"
 #include "PlikZAdresatami.h"
+#include "PlikZUzytkownikami.h"
 #include "AdresatMenedzer.h"
 
 int main()
 {
-    AdresatMenedzer adresatMenedzer ("Adresaci.txt",1);
+    PlikZUzytkownikami plikZUytkownikami("Uzytkownicy_testing.txt");
+    Uzytkownik uzytkownik(11, "Jan", "aaa");
+    plikZUytkownikami.dopiszUzytkownikaDoPliku(uzytkownik);
+    /*AdresatMenedzer adresatMenedzer ("Adresaci.txt",1);
     adresatMenedzer.wyswietlWszystkichAdresatow();
     adresatMenedzer.dodajAdresata();
     adresatMenedzer.wyswietlWszystkichAdresatow();
