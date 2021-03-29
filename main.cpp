@@ -7,6 +7,8 @@ int main()
 {
     KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci.txt");
     char wybor = 0;
+    int idOstatniegoAdresata = 0;
+    int idUsunietegoAdresata = 0;
     vector <Adresat> adresaci;
 
      while (true)
@@ -54,7 +56,8 @@ int main()
                 ksiazkaAdresowa.wyswietlWszystkichAdresatow();
                 break;
             case '5':
-                ksiazkaAdresowa.usunAdresata();
+                idUsunietegoAdresata = ksiazkaAdresowa.usunAdresata();
+                idOstatniegoAdresata = ksiazkaAdresowa.podajIdOstatniegoAdresataPoUsunieciuWybranegoAdresata(idUsunietegoAdresata);
                 break;
             case '6':
                 ksiazkaAdresowa.edytujAdresata();

@@ -14,12 +14,9 @@ using namespace std;
 
 class PlikZAdresatami : public PlikTekstowy {
 
-    //const string NAZWA_PLIKU_Z_ADRESATAMI;
-    //const string NAZWA_TYMCZASOWEGO_PLIKU_Z_ADRESATAMI;
     const string nazwaTymczasowegoPlikuZAdresatami = "Adresaci_tymczasowo.txt";
     int idOstatniegoAdresata;
 
-    //bool czyPlikJestPusty(fstream &plikTekstowy);
     string zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(Adresat adresat);
     Adresat pobierzDaneAdresata(string daneAdresataOddzielonePionowymiKreskami);
     int pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami);
@@ -29,7 +26,6 @@ class PlikZAdresatami : public PlikTekstowy {
 
 public:
     PlikZAdresatami(string nazwaPliku) : PlikTekstowy(nazwaPliku) {
-    //PlikZAdresatami (string nazwaPlikuZAdresatami) : NAZWA_PLIKU_Z_ADRESATAMI (nazwaPlikuZAdresatami) {
         idOstatniegoAdresata = 0;
     };
 
@@ -38,6 +34,7 @@ public:
     int pobierzIdOstatniegoAdresata();
     void usunWybranegoAdresataZPliku(int idUsuwanegoAdresata);
     void edytujWybranegoAdresataWPliku(string liniaZDanymiAdresata, int idEdytowanegoAdresata);
+    int pobierzZPlikuIdOstatniegoAdresata();
 };
 
 #endif

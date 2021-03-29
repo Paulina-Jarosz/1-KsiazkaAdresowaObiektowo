@@ -88,3 +88,7 @@ int KsiazkaAdresowa :: usunAdresata(){
 void KsiazkaAdresowa :: edytujAdresata(){
     adresatMenedzer -> edytujAdresata();
 }
+
+int KsiazkaAdresowa :: podajIdOstatniegoAdresataPoUsunieciuWybranegoAdresata(int idUsuwanegoAdresata){
+    adresatMenedzer -> podajIdOstatniegoAdresataPoUsunieciuWybranegoAdresata(idUsuwanegoAdresata);
+}

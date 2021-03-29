@@ -24,7 +24,7 @@ Adresat AdresatMenedzer :: podajDaneNowegoAdresata()
     Adresat adresat;
     string imie, nazwisko, numerTelefonu, email, adres;
 
-    adresat.ustawId( (plikZAdresatami.pobierzIdOstatniegoAdresata() + 1) );
+    adresat.ustawId( (plikZAdresatami.pobierzZPlikuIdOstatniegoAdresata() + 1) );
     adresat.ustawIdUzytkownika(ID_ZALOGOWANEGO_UZYTKOWNIKA);
 
     cout << "Podaj imie: ";
@@ -318,4 +318,14 @@ string AdresatMenedzer :: zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiK
     liniaZDanymiAdresata += adresat.pobierzAdres() + '|';
 
     return liniaZDanymiAdresata;
+}
+
+int AdresatMenedzer ::podajIdOstatniegoAdresataPoUsunieciuWybranegoAdresata(int idUsuwanegoAdresata)
+{
+    int idOstatniegoAdresata = plikZAdresatami.pobierzZPlikuIdOstatniegoAdresata();
+    if (idUsuwanegoAdresata == idOstatniegoAdresata){
+        return idOstatniegoAdresata;
+    }
+    else
+        return idOstatniegoAdresata;
 }
